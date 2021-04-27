@@ -1,0 +1,72 @@
+
+/* variable pour font-size responsive */
+html{
+--res: calc(0.01 * 10vmin);
+}
+
+header {
+  color:rgb(44, 110, 73);
+  background-image: url(images/frise/frise-header.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* apparence du menu */
+.nav-link {
+  color: rgb(44, 110, 73);
+}
+.nav-link:hover {
+  color: rgb(254, 254, 227);
+}
+.nav-item.active {
+  color: rgb(44, 110, 73);
+  font-weight: bold;
+} 
+.nav-item:hover {
+  background-color: hsl(120, 100%, 25%,40%);
+}
+
+/* h1, h2 et nav font-size responsive */
+h1 {
+  font-size: calc(44 * var(--res));
+}
+h2 {
+  font-size: calc(21 * var(--res));
+}
+nav{
+  font-size: calc(18 * var(--res));
+}
+.btn-success {
+background-color:rgba(44, 110, 73,0.8);
+}
+.bg-success, .bg-success:hover {
+  background-color: rgba(0, 32, 0, 0.2)!important;
+}
+
+/* apparence du footer */
+footer {
+  background-color: rgba(0, 32, 0, 0.8)
+}
+.btn-link {
+  color: rgb(254, 254, 227);
+}
+.btn-link:hover {
+  color: rgb(254, 254, 227);
+}
+
+
+
+
+/*  Palette de couleurs
+ Vert foncé
+    rgb(44, 110, 73)
+  Vert clair
+    rgb(76, 149, 108)
+  Jaune pale
+    rgb(254, 254, 227)
+  orange rose
+    rgb(255, 201, 185)
+  brun
+    rgb(214, 140, 69)
+*/
