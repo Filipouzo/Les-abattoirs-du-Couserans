@@ -1,5 +1,15 @@
 
 
+/* pour que le footer reste en bas sans être fixed */
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/*                  ************  HEADER */
+
+/* frise */
 header {
   color:rgb(44, 110, 73);
   background-image: url(images/frise/frise-header.jpg);
@@ -8,7 +18,7 @@ header {
   background-size: cover;
 }
 
-/* apparence du menu */
+/* apparence du menu de navigation */
 .nav-link {
   color: rgb(44, 110, 73);
 }
@@ -22,32 +32,57 @@ header {
 .nav-item:hover {
   background-color: hsl(120, 100%, 25%,40%);
 }
+/* Changement de l'apparence du bouton du menu de navigation colapsed */
+.navbar-toggler {
+  background-color: rgba(0, 32, 0, 0.2)!important;
+} 
 
-/* h1 et nav font-size responsive */
+
+/* h1, h2 et nav : font-size responsive */
 h1 {
   font-size: clamp(2.6rem, 2.2vw, 3.4rem);
 }
 h2 {
   font-size: clamp(1.2rem, 1.3vw, 2rem);
 }
-nav {
+header nav {
   font-size: clamp(1.2rem, 1vw, 2rem);
 }
 
-.btn-success {
-background-color:rgba(44, 110, 73,0.8);
-}
-.bg-success, .bg-success:hover {
-  background-color: rgba(0, 32, 0, 0.2)!important;
+/* Le sous-titre disparait pour écrans <lg  */
+@media screen and (max-width:992px) {
+  h2{
+    display: none;
+  }
 }
 
 
-/* pour que le footer reste en bas sans être fixed */
-body {
-  min-height: 100vh;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
+
+
+/*                  ************  MAIN */
+
+/* Changement de l'apparence des boutons des articles */
+article .btn-success {
+  background-color:rgba(44, 110, 73,0.8); 
 }
+
+
+/* Aside et Main-Nav disparaissent pour écrans <xl  */
+@media screen and (max-width:1200px) {
+  aside, main nav{
+    display: none;
+  }
+}
+
+/* font-size réduite pour écrans <sm  */
+@media screen and (max-width:576px) {
+  body{
+    font-size: 0.8rem;
+  }
+}
+
+
+/*                  ************  FOOTER */
 
 /* apparence du footer */
 footer {
@@ -57,7 +92,7 @@ footer {
   color: rgb(254, 254, 227);
 }
 .btn-link:hover {
-  color: rgb(254, 254, 227);
+  color: rgb(214, 140, 69);
 }
 
 
