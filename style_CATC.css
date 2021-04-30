@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr auto;
+  font-size: 1rem;
 }
 
 
@@ -41,13 +42,16 @@ header {
 
 /* h1, h2 et nav : font-size responsive */
 h1 {
-  font-size: clamp(2.6rem, 2.2vw, 3.4rem);
+  font-size: clamp(2rem, 3vw, 5rem);
 }
 h2 {
-  font-size: clamp(1.2rem, 1.3vw, 2rem);
+  font-size: clamp(1.2rem, 2vw, 2.5rem);
+}
+h3 {
+  font-size: clamp(0.9rem, 2vw, 6rem);
 }
 header nav {
-  font-size: clamp(1.1rem, 1vw, 2rem);
+  font-size: clamp(0.8rem, 1.5vw, 2rem);
 }
 
 /* Le sous-titre disparait pour écrans <lg  */
@@ -73,10 +77,15 @@ article .btn-success {
   }
 }
 
-/* font-size réduite pour écrans <sm  */
-@media screen and (max-width:576px) {
+/* font-size réduite pour écrans <sm et  */
+@media screen and (max-width:992px) {
   body{
     font-size: 0.8rem;
+  }
+}
+@media screen and (max-width:576px) {
+  body{
+    font-size: 0.7rem;
   }
 }
 
