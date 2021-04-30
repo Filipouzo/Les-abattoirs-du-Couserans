@@ -1,0 +1,5 @@
+
+User-agent: Googlebot
+Disallow: /images/
+
+sitemap: https://github.com/Filipouzo/first-evaluation/blob/main/sitemap.txt
