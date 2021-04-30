@@ -47,7 +47,7 @@ h2 {
   font-size: clamp(1.2rem, 1.3vw, 2rem);
 }
 header nav {
-  font-size: clamp(1.2rem, 1vw, 2rem);
+  font-size: clamp(1.1rem, 1vw, 2rem);
 }
 
 /* Le sous-titre disparait pour écrans <lg  */
@@ -78,6 +78,14 @@ article .btn-success {
   body{
     font-size: 0.8rem;
   }
+}
+
+/* apparence des liens du carnet d'adresse */
+address .link {
+  color: rgb(44, 110, 73);
+}
+address .link:hover {
+  font-weight: 500;
 }
 
 
