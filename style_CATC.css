@@ -48,10 +48,14 @@ h2 {
   font-size: clamp(1.2rem, 2vw, 2.5rem);
 }
 h3 {
-  font-size: clamp(0.9rem, 2vw, 6rem);
+  font-size: clamp(0.9rem, 1.6vw, 1.6rem);
+}
+h4 {
+  font-size: clamp(0.7rem, 2vw, 1.6rem);
+  color:   rgb(214, 140, 69)
 }
 header nav {
-  font-size: clamp(0.8rem, 1.5vw, 2rem);
+  font-size: clamp(0.6rem, 1.4vw, 1.6rem);
 }
 
 /* Le sous-titre disparait pour écrans <lg  */
@@ -77,7 +81,7 @@ article .btn-success {
   }
 }
 
-/* font-size réduite pour écrans <sm et  */
+/* font-size réduite pour écrans <sm et <xs  */
 @media screen and (max-width:992px) {
   body{
     font-size: 0.8rem;
@@ -97,6 +101,16 @@ address .link:hover {
   font-weight: 500;
 }
 
+table {
+  text-align: center;
+  max-width: 600px;
+}
+
+.table thead th {
+  vertical-align: middle;
+}
+
+
 
 /*                  ************  FOOTER */
 
@@ -111,18 +125,22 @@ footer {
   color: rgb(214, 140, 69);
 }
 
-
+.overflow {
+	overflow-y: scroll !important;
+}
 
 
 /*  Palette de couleurs
  Vert foncé
-    rgb(44, 110, 73)
+    color:  rgb(44, 110, 73)
   Vert clair
-    rgb(76, 149, 108)
+    color:  rgb(76, 149, 108)
   Jaune pale
-    rgb(254, 254, 227)
+    color: rgb(254, 254, 227)
   orange rose
-    rgb(255, 201, 185)
+    color: rgb(255, 201, 185)
   brun
-    rgb(214, 140, 69)
+    color:   rgb(214, 140, 69)
 */
+
+

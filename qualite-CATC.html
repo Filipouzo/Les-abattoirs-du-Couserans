@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <!-- lien Font Awesome Icon  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- lien Bootstraps  -->
@@ -43,18 +44,18 @@
     </div>
 
     <!--   Le menu devient icone dropdown et vient se placer à la droite du titre <lg -->
-    <nav class=" col-3 col-lg-12 navbar navbar-expand-lg p-0 p-1">
-      <div class="collapse navbar-collapse" id="navbarNavDropdown">      
-        <ul class="navbar-nav mx-auto">
-          <li class="nav-item"><a class="nav-link" href="./index.html">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="./presentation-CATC.html">Présentation</a></li>
-          <li class="nav-item"><a class="nav-link" href="./fonctionnement-CATC.html">Fonctionement</a></li>
-          <li class="nav-item"><a class="nav-link" href="./tarifs-CATC.html">Tarifs</a></li>
-          <li class="nav-item active"><a class="nav-link" href="./qualite-CATC.html">Qualité</a></li>
-          <li class="nav-item"><a class="nav-link" href="./evenements-CATC.html">Evénements</a></li>
-          <li class="nav-item"><a class="nav-link" href="./contact-CATC.html">Contact</a></li>
-        </ul>
-      </div>
+      <nav class=" col-3 col-lg-12 navbar navbar-expand-lg p-1">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">      
+          <ul class="navbar-nav mx-auto">
+            <li class="nav-item mr-3"><a class="nav-link" href="./index.html">Accueil</a></li>
+            <li class="nav-item mr-3"><a class="nav-link" href="./presentation-CATC.html">Présentation</a></li>
+            <li class="nav-item mr-3"><a class="nav-link" href="./bien-etre-CATC.html">Bien-être animal</a></li>
+            <li class="nav-item mr-3 active"><a class="nav-link" href="./qualite-CATC.html">Engagement qualité</a></li>
+            <li class="nav-item mr-3"><a class="nav-link" href="./fonctionnement-CATC.html">Fonctionnement</a></li>
+            <li class="nav-item mr-3"><a class="nav-link" href="./partenaires-CATC.html">Partenaires</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact-CATC.html">Contact</a></li>
+          </ul>
+        </div>
 
       <button class="navbar-toggler colapsed ml-auto bg-success" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false"
         aria-controls="navbarNavDropdown" aria-label="Toggle navigation">
@@ -64,31 +65,54 @@
       </button>
     </nav>
   </header>
-
-
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------- --> 
   <main class="row p-4">
 
     <!-- partie gauche (vide pour me moment) -->
     <aside class="col-xl-2"></aside>
 
-
-
     <!-- partie centrale -->
     <div class="col-12 col-xl-8">
 
-      <h3 style="color: tomato;"><strong><em>En construction</em></strong></h3>
+      <section class="row mb-5 mt-5">
+        <h5 class="text-justify">Nous sommes très actifs sur les démarches de qualité.<br>Nous validons les labels Viandes Bovines Françaises, Agriculture Biologique, Label Rouge « Gascon ».</h5>
+      </section>
 
-      <!-- Page horaires -->
-      <section class="mt-2 row no-gutters justify-content-around">
-        <aside class="col-3">
-          <div class="list-group">
-            <a href="#" class="list-group-item list-group-item-action bg-success text-white border-bottom-1 border-white text-center">Bovins</a>
-            <a href="#" class="list-group-item list-group-item-action bg-light text-success border-bottom-1 border-white text-center">Ovins/Caprins</a>
-            <a href="#" class="list-group-item list-group-item-action bg-success text-white border-bottom-1 border-white text-center">Porcins</a>
-            <a href="#" class="list-group-item list-group-item-action bg-success text-white border-bottom-1 border-white text-center">Equins</a>
-            <a href="#" class="list-group-item list-group-item-action bg-success text-white border-bottom-1 border-white text-center">Gibiers</a>
-          </div>
-        </aside>
+      <div class="mt-5 row row-cols-1 row-cols-sm-2 row-cols-md-3 p-0">
+        <article class="col p-2">
+          <a href="https://agriculture.gouv.fr/thematique-generale/alimentation"  target="_blank" class="p-0">
+            <img src="./images/grand-format/agri-bio.jpg" class="card-img-top img-thumbnail"  alt="agriculture Biologique">
+          </a>
+        </article>
+
+        <article class="col p-2">
+          <a href="https://www.interbev.fr/ressource/viande-bovine-francaise/" target="_blank" class="p-0">
+            <img src="./images/grand-format/viande-bovine-française.jpg" class="card-img-top img-thumbnail"  alt="Viande Bovine Française">
+          </a>
+        </article>
+        
+        <article class="col p-2">
+          <a href="http://www.gasconne.com/g/index.php" target="_blank" class="p-0">
+            <img src="./images/grand-format/boeuf-gascon.png" class="card-img-top img-thumbnail"  alt="Boeuf Gascon">
+          </a>
+        </article>
+      </div>
+
+      <section class="mt-5">
+        <h3>Exigences réglementaires</h3>
+          <ul>
+            <li class="text-justify">Règlement (CE) No 178/2002 du Parlement Européen et du Conseil du 28 janvier 2002.</li>
+            <li class="text-justify">Règlement (CE) N° 852/2004 du Parlement Européen et du Conseil du 29 avril 2004 relatif à l'hygiène des denrées alimentaires.</li>
+            <li class="text-justify">Règlement (CE) N° 853/2004 du Parlement Européen et du Conseil du 29 avril 2004 fixant des règles spécifiques d’hygiène applicables aux denrées alimentaires d’origine animale.</li>
+            <li class="text-justify">Règlement (CE) N° 183/2005 du Parlement Européen et du Conseil du 12 janvier 2005 établissant des exigences en matière d’hygiène des aliments pour animaux.</li>
+            <li class="text-justify">Règlement (CE) N° 2073/2005 de la Commission du 15 novembre 2005 concernant les critères microbiologiques applicables aux denrées alimentaires.</li>
+            <li class="text-justify">Règlement (CE) N° 882/2004 du Parlement Européen et du Conseil du 29 avril 2004 relatif aux contrôles officiels effectués pour s'assurer de la conformité avec la législation sur les aliments pour animaux et les denrées alimentaires et avec les dispositions relatives à la santé animale et au bien-être des animaux.</li>
+            <li class="text-justify">Règlement (CE) N° 854/2004 du Parlement Européen et du Conseil du 29 avril 2004 fixant les règles spécifiques d’organisation des contrôles officiels concernant les produits d’origine animale destinés à la consommation humaine.</li>
+            <li class="text-justify">Règlement (CE) n o 776/2006 de la Commission du 23 mai 2006 modifiant l’annexe VII du règlement (CE) n o 882/2004 du Parlement européen et du Conseil en ce qui concerne les laboratoires communautaires de référence.</li>
+            <li class="text-justify">Convention collective nationale des entreprises de l'industrie et des commerces en gros des viandes du 20 février 1969 remise à jour par accord du 9 novembre 1988.</li>
+            <li class="text-justify">Arrêté de prescriptions générales du 30/04/04 modifié relatif aux prescriptions applicables aux installations classées pour la protection de l'environnement soumises à autorisation sous la rubrique n° 2210.</li>
+            <li class="text-justify">Article 34 de l'Arrêté du 2 février 1998 relatif aux prélèvements et à la consommation d'eau ainsi qu'aux émissions de toute nature des installations classées pour la protection de l'environnement soumises à autorisation dont il est fait mention dans l’arrêté de prescriptions générales du 30/04/04 pour les installations à l'Article 28 Modifié par Arrêté du 24 août 2017 - art. 4 En matière de traitement externe des effluents par une station d’épuration collective.</li>
+          </ul>
       </section>
     </div>
 
@@ -96,8 +120,7 @@
     <nav class="col-xl-2"></nav>
     
   </main>
-
-
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------- --> 
   <footer class="row justify-content-around align-items-center ">
     <div class="p-1">
       <i class="fa fa-map" style="font-size:24px;color:white"></i>
@@ -105,7 +128,7 @@
     </div>
     <div class="p-1">
       <i class="fa fa-envelope-square" style="font-size:24px;color: white;"></i>
-      <a class="btn-link pl-2" href="mailto:brunet.abattoir@gmail.com">Nous écrire</a>
+      <a class="btn-link pl-2" href="mailto:lesabattoirsducouserans@gmail.com">Nous écrire</a>
     </div>
     <div class="p-1">
       <i class="fa fa-facebook-square" style="font-size:24px;color:white"></i>

@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="index,follow">
   <!-- lien Font Awesome Icon  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- lien Bootstraps  -->
@@ -45,12 +46,12 @@
     <nav class=" col-3 col-lg-12 navbar navbar-expand-lg p-1">
       <div class="collapse navbar-collapse" id="navbarNavDropdown">      
         <ul class="navbar-nav mx-auto">
-          <li class="nav-item"><a class="nav-link" href="./index.html">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="./presentation-CATC.html">Présentation</a></li>
-          <li class="nav-item"><a class="nav-link" href="./fonctionnement-CATC.html">Fonctionement</a></li>
-          <li class="nav-item"><a class="nav-link" href="./tarifs-CATC.html">Tarifs</a></li>
-          <li class="nav-item"><a class="nav-link" href="./qualite-CATC.html">Qualité</a></li>
-          <li class="nav-item"><a class="nav-link" href="./evenements-CATC.html">Evénements</a></li>
+          <li class="nav-item mr-3"><a class="nav-link" href="./index.html">Accueil</a></li>
+          <li class="nav-item mr-3"><a class="nav-link" href="./presentation-CATC.html">Présentation</a></li>
+          <li class="nav-item mr-3"><a class="nav-link" href="./bien-etre-CATC.html">Bien-être animal</a></li>
+          <li class="nav-item mr-3"><a class="nav-link" href="./qualite-CATC.html">Engagement qualité</a></li>
+          <li class="nav-item mr-3"><a class="nav-link" href="./fonctionnement-CATC.html">Fonctionnement</a></li>
+          <li class="nav-item mr-3"><a class="nav-link" href="./partenaires-CATC.html">Partenaires</a></li>
           <li class="nav-item active"><a class="nav-link" href="./contact-CATC.html">Contact</a></li>
         </ul>
       </div>
@@ -63,11 +64,7 @@
       </button>
     </nav>
   </header>
-
-
-
-
-
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------- --> 
   <main class="row p-4">
 
     <!-- partie gauche  (vide pour me moment) -->
@@ -88,7 +85,7 @@
           </li>
           <li class="row align-items-start mt-4">
             <i class="fa fa-envelope fa-lg col-1 text-right" style="font-size:24px"></i>
-            <a class="col link" href="mailto:brunet.abattoir@gmail.com">brunet.abattoir@gmail.com</a>
+            <a class="col link" href="mailto:mailto:lesabattoirsducouserans@gmail.com">lesabattoirsducouserans@gmail.com</a>
           </li>
           <li class="row align-items-start mt-4">
             <i class="fa fa-map col-1 text-right" style="font-size:24px"></i>
@@ -106,42 +103,68 @@
         </ul>
       </address>
 
-      <!-- Préparation d'un formulaire d'inscription à la news-letter -->
+      <!-- Préparation d'un formulaire d'inscription à la news-letter
 
-      <h3 class="pt-5">Inscrivez-vous à notre news-letter</h3>        
+              <h3 class="pt-5">Inscrivez-vous à notre news-letter</h3>        
         
-      <form class="p-4"
-        method="post"
-        action="contact-CATC.html">
+              <form class="p-4"
+                method="post"
+                action="contact-CATC.html">
 
-        <input type="radio" name="radio" id="news-genre-female">
-        <label for="news-genre-female">Madame</label>
-        <input type="radio" name="radio" id="news-genre-male">
-        <label for="news-genre-male">Monsieur</label>
+                <input type="radio" name="radio" id="news-genre-female">
+                <label for="news-genre-female">Madame</label>
+                <input type="radio" name="radio" id="news-genre-male">
+                <label for="news-genre-male">Monsieur</label>
 
-        <div class="input-group">
-          <label class="form-label" for="news-name">Nom
-            <input type="text" name="lname" id="news-name" class="form-control" placeholder="" required>
-          </label>
-        </div>
+                <div class="input-group">
+                  <label class="form-label" for="news-name">Nom
+                    <input type="text" name="lname" id="news-name" class="form-control" placeholder="" required>
+                  </label>
+                </div>
 
-        <div class="input-group">
-          <label class="form-label" for="news-mail">Adresse mail
-            <input type="email" name="email" id="news-mail" class="form-control" placeholder="" required>
-          </label>
-        </div>
+                <div class="input-group">
+                  <label class="form-label" for="news-mail">Adresse mail
+                    <input type="email" name="email" id="news-mail" class="form-control" placeholder="" required>
+                  </label>
+                </div>
+
+                <button type="submit" class="btn btn-success mt-2">S'inscrire</button>
+              </form>-->
 
 
-        <button type="submit" class="btn btn-success mt-2">S'inscrire</button>
-      </form>
-    </div>
+      <section class="row mt-5">
+        <h3>Les rendez-vous des abattoirs du Couserans :</h3>
+        <p class="col-12 text-justify"></p>
+      </section>
+
+      <div class="row row-cols-1 row-cols-lg-2 p-0 justify-content-center">
+                  
+        <article class="col pt-2">
+          <div class="card border-0 pt-1">
+            <h4 class="card-title">Les Made In viande</h4>
+            <img src="./images/vignettes/rencontres.jpg" class="card-img-top img-thumbnail car" alt="Les rencontres Made in Viande">
+            <h5 class="pt-1">Le 26 mai 2021 de 08h30 à 15h30</h5>
+            <p class="pl-2 pr-2 text-justify">Les Rencontres MADE in VIANDE, ce sont des visites, des découvertes, des échanges avec les hommes et les femmes de la filière élevage et viande qui vous ouvrent leurs portes partout en France pour partager leurs métiers, leur quotidien et leurs valeurs.<br>
+              <a href="https://www.la-viande.fr/made-in-viande/les-rencontres/2021/scic-centre-abattage-transformation-couserans" target="_blank">Plus d'info</a>
+            </p>
+          </div>
+        </article>
+        <article class="col pt-2">
+          <div class="card border-0 pt-1">
+            <h4 class="card-title">Les portes ouvertes</h4>
+            <img src="./images/vignettes/visite.jpg" class="card-img-top img-thumbnail car" alt="présentation carcasse">
+            <h5 class="pt-1">Le 15<sup>ème</sup> jour de chaque mois</h5>
+            <p class="pl-2 pr-2 text-justify">Tous les 15 du mois, les abattoirs du Couserans ouvrent leurs portes au public.<br>Venez découvrir notre outil et notre façon de travailler.<br>Nous contacter pour plus de précision.</p>
+          </div>
+        </article>
+
+      </div>
     
     <!-- partie droite  (vide pour me moment) -->
     <nav class="col-xl-2"></nav>
     
   </main>
-
-
+<!-- ------------------------------------------------------------------------------------------------------------------------------------------- --> 
   <footer class="row justify-content-around align-items-center ">
     <div class="p-1">
       <i class="fa fa-map" style="font-size:24px;color:white"></i>
@@ -149,7 +172,7 @@
     </div>
     <div class="p-1">
       <i class="fa fa-envelope-square" style="font-size:24px;color: white;"></i>
-      <a class="btn-link pl-2" href="mailto:brunet.abattoir@gmail.com">Nous écrire</a>
+      <a class="btn-link pl-2" href="mailto:lesabattoirsducouserans@gmail.com">Nous écrire</a>
     </div>
     <div class="p-1">
       <i class="fa fa-facebook-square" style="font-size:24px;color:white"></i>

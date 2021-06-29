@@ -1,7 +1,12 @@
 https://filipouzo.github.io/first-evaluation/
 https://filipouzo.github.io/first-evaluation/presentation-CATC.html
 https://filipouzo.github.io/first-evaluation/fonctionnement-CATC.html
-https://filipouzo.github.io/first-evaluation/tarifs-CATC.html
+https://filipouzo.github.io/first-evaluation/fonctionnement-veaux-CATC.html
+https://filipouzo.github.io/first-evaluation/fonctionnement-ovinscaprins-CATC.html
+https://filipouzo.github.io/first-evaluation/fonctionnement-porcins-CATC.html
+https://filipouzo.github.io/first-evaluation/fonctionnement-equins-CATC.html
+https://filipouzo.github.io/first-evaluation/fonctionnement-gibiers-CATC.html
+https://filipouzo.github.io/first-evaluation/fonctionnement-grosbovins-CATC.html
 https://filipouzo.github.io/first-evaluation/qualite-CATC.html
 https://filipouzo.github.io/first-evaluation/evenements-CATC.html
 https://filipouzo.github.io/first-evaluation/contact-CATC.html
