@@ -6,6 +6,7 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   font-size: 1rem;
+  background-color: rgba(206, 250, 195, 0.1);
 }
 
 
@@ -51,8 +52,11 @@ h3 {
   font-size: clamp(0.9rem, 1.6vw, 1.6rem);
 }
 h4 {
-  font-size: clamp(0.7rem, 2vw, 1.6rem);
+  font-size: clamp(0.7rem, 1.6vw, 1.6rem);
   color:   rgb(214, 140, 69)
+}
+h5 {
+  font-size: clamp(0.7rem, 1.4vw, 1.3rem);
 }
 header nav {
   font-size: clamp(0.6rem, 1.4vw, 1.6rem);
@@ -111,12 +115,12 @@ table {
 }
 
 
-
 /*                  ************  FOOTER */
 
 /* apparence du footer */
 footer {
-  background-color: rgba(0, 32, 0, 0.8);
+  background-color: rgba(44, 110, 73,0.9);
+  height: 50px;
 }
 .btn-link {
   color: rgb(254, 254, 227);
